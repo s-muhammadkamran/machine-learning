@@ -1,0 +1,44 @@
+Feature Engineering:
+
+    i.  Feature Transformation
+
+            1. Missing Values Imputaton (Use Mean, Median, Mode, Drop or Fill)
+                a. Dropna
+                b. Fillna (Forward Fill ffill, Backward Fill bfill)
+                c. SimpleImputer (Mean, Median, Mode)
+                d. KNNImputer
+                e. Regression Imputation
+                f. Multiple Imputation MICE (Iterative Imputer)
+                g. Mode Imputation
+                h. Unknown Value Categorization
+                             
+            2. Encoding - Categorical Values Handling (Convert to Numerical)
+                a. Label Encoder (Category to Integer)
+                b. One Hot Encoding (Create a new Binary Column for Each Category with 0 or 1 as value)
+                c. Binary Encoding (Conerty Category to Binary)
+                d. Orginal Encoding (Assign Ordered Numerical Values)
+                e. Frequency Encoding (Replace Category with their Frequencies)
+                f. Target / Mean Encoding (Replace with mean)
+                g. Hashing Encoding
+
+            3. Outlier Detection
+                a. Inter Quartile Range Method
+                b. Box Plot Method
+
+            4. Feature Scaling
+                a. Min Max Scaling
+                b. Z-Score Scalling / Standardization / Normalization
+                    i. StandardScaler
+                c. Robust Scalling (using Mean and IQR) 
+
+
+    ii.  Feature Construction
+            1. Creating new columns from existing data
+    
+    iii. Feature Selection
+            1. Selecting Most important features from data.
+    
+    iv.  Feature Extraction
+            1. Extracting completely new features from given features.
+                a. PCA
+                b. Numerosity Reduction
