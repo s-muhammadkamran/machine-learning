@@ -1,4 +1,4 @@
-Feature Engineering:
+Feature Engineering
 
     i.  Feature Transformation
 
@@ -40,5 +40,6 @@ Feature Engineering:
     
     iv.  Feature Extraction
             1. Extracting completely new features from given features.
-                a. PCA
+                a. PCA - Principal Component Analysis
                 b. Numerosity Reduction
+                c. LDA - Linear Discriminanat Analysis
